@@ -1,0 +1,19 @@
+[gd_resource type="Resource" script_class="CodeSyntaxSettings" load_steps=2 format=3 uid="uid://bk5k2y5806fyw"]
+
+[ext_resource type="Script" path="res://gizmo/mg/code_syntax_settings.gd" id="1_o21hd"]
+
+[resource]
+script = ExtResource("1_o21hd")
+keywords = Array[String](["and", "as", "assert", "class", "def", "del", "except", "False", "from", "global", "import", "in", "is", "lambda", "None", "nonlocal", "not", "or", "raise", "True", "try", "with", "yield"])
+cf_keywords = Array[String](["break", "continue", "elif", "else", "finally", "for", "if", "pass", "return", "while"])
+builtins = Array[String]([])
+comment_indicator = "#"
+normal_color = Color(0.75, 0.8, 0.81, 1)
+symbol_color = Color(0.67, 0.79, 1, 1)
+keyword_color = Color(1, 0.43, 0.51, 1)
+cf_keyword_color = Color(1, 0.55, 0.8, 1)
+builtin_color = Color(0.25, 1, 0.75, 1)
+comment_color = Color(0.75, 0.8, 0.81, 0.5)
+string_color = Color(1, 0.93, 0.62, 1)
+number_color = Color(0.62, 1, 0.87, 1)
+function_color = Color(0.4, 0.89, 1, 1)

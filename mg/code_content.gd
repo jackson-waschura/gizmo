@@ -6,7 +6,8 @@ enum CODE_LANG {GDSCRIPT_LANG, PYTHON_LANG, CSHARP_LANG}
 
 # TODO: should these be preloaded or not?
 const SYNTAX_SETTINGS = {
-	CODE_LANG.GDSCRIPT_LANG: preload("res://gizmo/mg/gdscript_syntax_settings.tres")
+	CODE_LANG.GDSCRIPT_LANG: preload("res://gizmo/mg/gdscript_syntax_settings.tres"),
+	CODE_LANG.PYTHON_LANG: preload("res://gizmo/mg/python_syntax_settings.tres")
 }
 
 @export
