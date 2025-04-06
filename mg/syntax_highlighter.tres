@@ -1,0 +1,45 @@
+[gd_resource type="CodeHighlighter" format=3 uid="uid://27mk21xjqvst"]
+
+[resource]
+number_color = Color(0.62, 1, 0.87, 1)
+symbol_color = Color(0.67, 0.79, 1, 1)
+function_color = Color(0.4, 0.89, 1, 1)
+keyword_colors = {
+"as": Color(1, 0.43, 0.51, 1),
+"assert": Color(1, 0.43, 0.51, 1),
+"await": Color(1, 0.43, 0.51, 1),
+"break": Color(1, 0.55, 0.8, 1),
+"breakpoint": Color(1, 0.43, 0.51, 1),
+"class": Color(1, 0.43, 0.51, 1),
+"class_name": Color(1, 0.43, 0.51, 1),
+"const": Color(1, 0.43, 0.51, 1),
+"continue": Color(1, 0.55, 0.8, 1),
+"elif": Color(1, 0.55, 0.8, 1),
+"else": Color(1, 0.55, 0.8, 1),
+"enum": Color(1, 0.43, 0.51, 1),
+"extends": Color(1, 0.43, 0.51, 1),
+"for": Color(1, 0.55, 0.8, 1),
+"func": Color(1, 0.43, 0.51, 1),
+"if": Color(1, 0.55, 0.8, 1),
+"in": Color(1, 0.43, 0.51, 1),
+"is": Color(1, 0.43, 0.51, 1),
+"match": Color(1, 0.55, 0.8, 1),
+"namespace": Color(1, 0.43, 0.51, 1),
+"pass": Color(1, 0.55, 0.8, 1),
+"preload": Color(1, 0.43, 0.51, 1),
+"return": Color(1, 0.55, 0.8, 1),
+"self": Color(1, 0.43, 0.51, 1),
+"signal": Color(1, 0.43, 0.51, 1),
+"static": Color(1, 0.43, 0.51, 1),
+"super": Color(1, 0.43, 0.51, 1),
+"trait": Color(1, 0.43, 0.51, 1),
+"var": Color(1, 0.43, 0.51, 1),
+"void": Color(1, 0.43, 0.51, 1),
+"when": Color(1, 0.55, 0.8, 1),
+"while": Color(1, 0.55, 0.8, 1),
+"yield": Color(1, 0.43, 0.51, 1)
+}
+color_regions = {
+"\" \"": Color(1, 0.93, 0.62, 1),
+"#": Color(0.75, 0.8, 0.81, 0.5)
+}

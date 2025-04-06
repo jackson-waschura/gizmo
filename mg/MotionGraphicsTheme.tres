@@ -1,0 +1,33 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://r35wtj4n8acy"]
+
+[ext_resource type="FontFile" uid="uid://buoktbmij5snj" path="res://assets/fonts/mononoki/mononoki-Regular.ttf" id="1_yp51t"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_i3pyk"]
+bg_color = Color(0.141176, 0.254902, 0.25098, 1)
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_d6ubj"]
+bg_color = Color(0.141176, 0.254902, 0.25098, 1)
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_vrn8x"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0.0392157, 0.156863, 0.156863, 1)
+border_width_bottom = 5
+border_color = Color(0.0237057, 0.116932, 0.116933, 1)
+border_blend = true
+corner_radius_top_left = 10
+corner_radius_top_right = 10
+corner_radius_bottom_right = 10
+corner_radius_bottom_left = 10
+
+[resource]
+default_font = ExtResource("1_yp51t")
+Panel/styles/panel = SubResource("StyleBoxFlat_i3pyk")
+PanelContainer/styles/panel = SubResource("StyleBoxFlat_d6ubj")
+TextEdit/styles/normal = SubResource("StyleBoxFlat_vrn8x")

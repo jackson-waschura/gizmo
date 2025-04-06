@@ -1,0 +1,47 @@
+[gd_scene load_steps=5 format=3 uid="uid://dd5cc2bwypack"]
+
+[ext_resource type="Script" path="res://gizmo/mg/code_block.gd" id="1_wo0mn"]
+[ext_resource type="Theme" uid="uid://r35wtj4n8acy" path="res://gizmo/mg/MotionGraphicsTheme.tres" id="2_h7jkv"]
+[ext_resource type="Script" path="res://gizmo/mg/code_content.gd" id="2_kywrm"]
+[ext_resource type="CodeHighlighter" uid="uid://27mk21xjqvst" path="res://gizmo/mg/syntax_highlighter.tres" id="3_xcx08"]
+
+[node name="CodeBlock" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+theme = ExtResource("2_h7jkv")
+script = ExtResource("1_wo0mn")
+header_size = 22
+content_size = 16
+
+[node name="PanelContainer" type="PanelContainer" parent="."]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+
+[node name="MarginContainer" type="MarginContainer" parent="PanelContainer"]
+layout_mode = 2
+theme_override_constants/margin_left = 5
+theme_override_constants/margin_top = 5
+theme_override_constants/margin_right = 5
+theme_override_constants/margin_bottom = 5
+
+[node name="MainVBoxContainer" type="VBoxContainer" parent="PanelContainer/MarginContainer"]
+layout_mode = 2
+
+[node name="Header" type="Label" parent="PanelContainer/MarginContainer/MainVBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 22
+text = "Header"
+
+[node name="Content" type="TextEdit" parent="PanelContainer/MarginContainer/MainVBoxContainer"]
+custom_minimum_size = Vector2(447, 0)
+layout_mode = 2
+size_flags_vertical = 3
+theme_override_colors/font_color = Color(0.75, 0.8, 0.81, 1)
+theme_override_font_sizes/font_size = 16
+text = "func _my_function(arg1, arg2, arg3, arg4, arg5):
+    # This method prints and returns a sum
+    print(\"Hello World!\")
+    return arg1 + arg2 + arg3"
+scroll_fit_content_height = true
+syntax_highlighter = ExtResource("3_xcx08")
+script = ExtResource("2_kywrm")
